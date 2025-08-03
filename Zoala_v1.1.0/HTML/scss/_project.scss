@@ -1,0 +1,123 @@
+//
+// project.scss
+//
+
+.item-box{
+    box-shadow: $box-shadow;
+}
+
+.container-filter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        display: block;
+        color: $custom !important;
+        border: 1px solid $custom;
+        padding: 0px 22px;
+        margin: 4px 8px !important;
+        cursor: pointer;
+        line-height: 35px;
+        transition: all 0.6s;
+        border-radius: 30px;
+        &.active {
+            background-color:  $custom;
+            color: $white !important;
+        }
+        &:hover {
+            background-color:  $custom !important;
+            color: $white !important;
+        }
+    }
+}
+
+
+
+
+.item-box {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    a {
+        display: inline-block;
+        position: relative;
+    }
+}
+
+.item-box:hover {
+    .item-mask {
+        opacity: 1;
+        transform: scale(1) !important;
+    }
+    .item-caption {
+        opacity: 1;
+    }
+    .item-container {
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        width: 100%;
+        transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+        -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+        -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+        -o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    }
+    
+}
+
+
+
+.item-mask {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: $custom;
+    transform: scale(0);
+    p {
+        letter-spacing: 1.5px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .item-caption {
+        position: absolute;
+        transition: all 0.5s ease-in-out 0s;
+        -moz-transition: all 0.5s ease-in-out 0s;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        -o-transition: all 0.5s ease-in-out 0s;
+        opacity: 0;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.project-icons {
+    border: 2px solid $white;
+    color: $white;
+    font-size: 22px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    line-height: 41px;
+    transition: all 0.5s;
+    &:hover{
+        background: $white;
+        color: $custom;
+        border: 2px solid $white;
+    }
+
+}
+

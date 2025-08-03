@@ -1,0 +1,134 @@
+//
+// menu.scss
+//
+
+.navbar-custom {
+    padding: 21px 0px;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    background: $white;
+    margin: 0 auto;
+
+    .navbar-nav {
+        li {
+            a {
+                line-height: 26px;
+                color: $dark;
+                font-size: 13px;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                background-color: transparent !important;
+                padding: 6px 0;
+                margin: 0 10px;
+                font-weight: 500;
+                font-family: $font-family-secondary;
+            }
+        }
+    }
+}
+
+
+.navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: $dark;
+}
+
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active {
+    color: $custom !important;
+}
+
+.navbar-toggle {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: $white;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
+}
+
+.navbar-custom {
+    .navbar-toggles {
+        padding: .25rem .75rem;
+        font-size: 18px;
+        background: 0 0;
+        border: 1px solid transparent;
+        color: $white;
+        outline: 0;
+    }
+
+    .navbar-toggles-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
+}
+
+.menu-toggle {
+    padding: 4.5px 10px !important;
+}
+
+.menu-toggle {
+    span {
+        line-height: 27px;
+    }
+}
+
+.navbar-button{
+    margin-left: 20px;
+}
+
+
+/*---NAVBAR STICKY--*/
+
+.nav-sticky{
+    &.navbar-custom {
+        margin-top: 0px;
+        padding: 21px 0px;
+        background-color: $white;
+        box-shadow: 0 10px 33px rgba(140, 140, 140, 0.1);
+
+        &.sticky-dark {
+            background-color: $white;
+        }
+    }
+    .logo {
+        color: $dark !important;
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                color: $dark !important;
+            }
+        }
+    }
+}
+
+
+.nav-sticky.navbar-custom .navbar-nav li.active a,
+.nav-sticky.navbar-custom .navbar-nav li a:hover,
+.nav-sticky.navbar-custom .navbar-nav li a:active {
+    color: $custom !important;
+}
+
+.nav-sticky.navbar-custom .navbar-toggles {
+    padding: .25rem .75rem;
+    border: 1px solid transparent;
+    outline: 0;
+}
+
+.nav-sticky .navbar-nav {
+    margin-top: 0px;
+}

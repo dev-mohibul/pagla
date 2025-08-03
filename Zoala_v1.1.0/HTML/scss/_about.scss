@@ -1,0 +1,23 @@
+ //
+// about.scss
+//
+
+.about-title {
+    max-width: 800px;
+}
+
+.about-title p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.about-border-left {
+    border-left: 1px solid lighten($dark, 60%);
+}
+
+
+.team-img{
+    img{
+        width: 200px;
+    }
+}

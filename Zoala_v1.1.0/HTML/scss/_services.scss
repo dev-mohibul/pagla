@@ -1,0 +1,25 @@
+//
+// services.scss
+//
+
+
+.services-box{
+    padding: 20px;
+    position: relative;
+}
+
+.services-content{
+    overflow: hidden;
+}
+
+.services-count{
+    color: lighten($dark, 55%);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.services-img{
+    img{
+        width: 38px;
+    }
+}

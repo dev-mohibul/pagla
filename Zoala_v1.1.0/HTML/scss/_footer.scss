@@ -1,0 +1,49 @@
+
+  //
+  // footer.scss
+  //
+
+
+.bg-footer{
+    padding: 80px 0px 40px 0px;
+   
+}
+
+  .footer-title {
+    color: $white;
+    letter-spacing: 1px;
+}
+
+.footer-link {
+    a {
+        color: #a1aaae;
+        line-height: 36px;
+        transition: all 0.5s;
+        &:hover {
+            color: $custom;
+        }
+    }
+}
+
+.footer-social {
+    a {
+        text-align: center;
+        color: $white;
+        display: block;
+        width: 36px;
+        height: 36px;
+        background: $custom;
+        line-height: 36px;
+        font-size: 15px;
+        transition: all 0.5s;
+    }
+}
+
+.footer-info,
+.footer-alt{
+    color: #a1aaae;
+}
+
+.Workflows-content{
+    padding-left: 60px;
+}

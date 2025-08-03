@@ -1,0 +1,46 @@
+//
+// testimonial.scss
+//
+
+
+.testimonial-box{
+    padding: 40px;
+}
+
+.testi-img{
+    img{
+        width: 90px;
+    }
+}
+
+.owl-buttons{
+    display: none;
+}
+
+.owl-theme {
+    .owl-controls {
+        .owl-page {
+            span {
+                background-color: $custom;
+            }
+        }
+    }
+}
+
+
+.testi-desc{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: $muted;
+}
+
+// client-logo
+
+.bg-client-logo{
+    background-image: url(../images/bg-pattern.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}

@@ -1,0 +1,101 @@
+  
+  //
+// components.scss
+//
+
+  
+.bg-custom {
+    background-color: $custom;
+}
+
+.bg-light{
+    background-color: $light !important;
+}
+
+.text-custom {
+    color: $custom;
+}
+
+.text-muted {
+    color: $muted !important;
+}
+
+.btn {
+    padding: 12px 26px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+.btn-sm {
+    padding: 7px 14px;
+    font-size: 12px;
+}
+
+.btn-round {
+    border-radius: 4px !important;
+}
+
+.btn-rounded{
+    border-radius: 30px !important;
+}
+
+.btn-custom {
+    color:$white;
+    border-radius: 0px;
+    background-color: $custom;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.open>.dropdown-toggle .btn-custom {
+    color: $white;
+    background-color: $custom;
+    
+}
+
+
+.btn-white {
+    color:$dark;
+    background-color: $white;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active,
+.btn-white.focus,
+.btn-white:active,
+.open>.dropdown-toggle .btn-white {
+    color: $dark;
+    background-color: $white;
+    
+}
+
+
+.btn-outline {
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 0px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline.focus,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover,
+.open>.dropdown-toggle .btn-outline {
+    outline: none;
+    border: 1px solid $white;
+    background-color: $white;
+
+}

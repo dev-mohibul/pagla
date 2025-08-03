@@ -1,0 +1,45 @@
+/* Template Name: Zoala - One Page HTML5 Template
+   Author: Themesdesign
+   Version: 1.0.0
+   Created: Oct 2019
+   File Description: Main Css file of the template
+*/
+
+/****************************************\
+
+01.general
+02.helper
+03.components
+04.menu
+05.home
+06.services
+07.project
+08.cta
+09.testimonial
+10.about
+11.video
+12.pricing
+13.blog
+14.contact
+15.footer
+16.responsive
+
+*****************************************/
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "components";
+@import "menu";
+@import "home";
+@import "services";
+@import "project";
+@import "cta";
+@import "testimonial";
+@import "about";
+@import "video";
+@import "pricing";
+@import "blog";
+@import "contact";
+@import "footer";
+@import "responsive";

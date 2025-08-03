@@ -1,0 +1,88 @@
+//
+// responsive.scss
+//
+
+@media (min-width: 200px) and (max-width: 768px) {
+
+    .navbar-custom {
+        margin-top: 0px;
+        padding: 15px 0px !important;
+        background-color: $white !important;
+        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+        color: $white !important;
+
+        .navbar-nav {
+            margin-top: 0px;
+            li{
+                &.active{
+                    border-color: transparent;
+                }
+                a {
+                    transition: all 0.4s;
+                    color: $dark !important;
+                    margin: 0px;
+                }
+            }
+        }
+        >.container{
+            width: 90%;
+        }
+    }
+  
+    .navbar-custom .navbar-nav li.active a,
+    .navbar-custom .navbar-nav li a:hover,
+    .navbar-custom .navbar-nav li a:active {
+        color: $custom !important;
+    }
+  
+   
+    .navbar-toggler {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: $dark;
+    }
+
+    .navbar-button{
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .about-icon-1, .about-icon-2{
+        display: none;
+    }
+
+    .about-line:before {
+        display: none;
+    }
+
+    .about-border-left{
+        border: none;
+    }
+    .Workflows-content{
+        padding-left: 0px;
+    }
+
+    .home-registration{
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .container{
+     max-width: 1300px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    .home-title, .home-title-2, .home-title-5{
+        font-size: 35px;
+    }
+    .home-registration-form{
+        width: 100% !important;
+    }
+}
+

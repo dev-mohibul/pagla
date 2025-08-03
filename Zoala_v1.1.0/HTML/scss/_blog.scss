@@ -1,0 +1,47 @@
+
+//
+// blog.scss
+//
+
+.blog-box{
+    position: relative;
+}
+
+.blog-lable{
+    font-size: 13px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: $white;
+    padding: 5px 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.blog-heading{
+    top: -29px;
+    position: relative;
+    p{
+        background: $custom;
+        color: $white;
+        letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    padding: 4px 15px;
+    font-size: 12px;
+    }
+}
+
+.blog-title{
+    color: $dark;
+    transition: all 0.5s;
+    &:hover{
+        color: $custom;
+    }
+}
+
+.blog-post{
+    position: relative;
+    padding: 0px 20px 20px 20px;
+}

@@ -1,0 +1,51 @@
+//
+// contact.scss
+//
+
+.error {
+    margin: 8px 0px;
+    display: none;
+    color: red;
+}
+
+#ajaxsuccess {
+    font-size: 16px;
+    width: 100%;
+    display: none;
+    clear: both;
+    margin: 8px 0px;
+}
+
+.error_message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f01414;
+    border: 2px solid #f01414;
+}
+
+.contact-loader {
+    display: none;
+}
+
+.custom-form {
+    
+    .form-control {
+        height: 44px;
+        z-index: 2;
+        border: 1px solid lighten($dark, 55%);
+        font-size: 14px;
+        color: $muted;
+        &:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+
+    textarea{
+        &.form-control {
+            height: auto !important;
+        }  
+    }
+}
+

@@ -1,0 +1,37 @@
+
+//
+// video.scss
+//
+
+.bg-video {
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.video-content{
+    h3{
+        font-size: 34px;
+    }
+}
+
+.video-desc{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 17px;
+
+}
+
+.play-icon-circle {
+    height: 80px;
+    width: 80px;
+    background-color: $custom;
+    color: $white;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 26px;
+    font-size: 40px;
+}

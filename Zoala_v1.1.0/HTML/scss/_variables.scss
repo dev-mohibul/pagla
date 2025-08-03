@@ -1,0 +1,30 @@
+//
+// variables.scss
+//
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:400,500');
+
+// Color variables
+$white:                     #ffffff;
+
+$custom:                    #ea485f;
+$primary:                   #67a8e4;
+$success:                   #4ac18e;
+$info:                      #3bc3e9;
+$warning:                   #ffbb44;
+$danger:                    #ea553d;
+$pink:                      #ff5e92;
+$dark:                      #464668;
+$muted:                     #848290;
+$light:                     #fafafa;
+
+// Body Background
+$body-bg:                   #f5f5f5;
+$bg-gradient:               linear-gradient(to right, #5e02f5, #3e0b91);
+$box-shadow:                1px 2px 10px rgba(0, 0, 0, 0.09);
+
+// Base font
+$font-size-base:              14px;
+
+$font-family-base:            'Open Sans', sans-serif;
+$font-family-secondary:       'Roboto', sans-serif;
